@@ -1,0 +1,11 @@
+# 1
+class Person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+        self.introduce() # 调用一下函数
+    def introduce(self):
+        print("My name is {} and i am {} years old".format(self.name,self.age))
+gy = Person('郭小杨',24)
+gy.introduce()
+
